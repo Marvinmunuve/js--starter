@@ -71,10 +71,112 @@ const markHigherBMI = BMIMark > BMIJohn;
 console.log(BMIMark, BMIJohn, markHigherBMI);*/
 
 
-const firstName = 'jonas';
+/*const firstName = 'jonas';
 const job = 'teacher';
 const birthYear = 1991;
 const year = 2037;
 
 const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
-console.log(jonasNew);
+console.log(jonasNew);*/
+
+
+
+//if else statement -controls structure
+/*const age = 15;
+
+if(age >=18) {
+    console.log( `sarah can start driving license 🚗`);
+} else {
+    const yearsLeft = 18 - age;
+    console.log(`sarah is too young. wait another ${yearsLeft} years`);
+}
+
+
+const birthYear = 2001;
+let century;
+if (birthYear <= 2000){
+    century =20;
+} else{
+     century = 21;
+}
+console.log (century);
+
+// coding challenge 2 
+//else if control structure
+
+const massMark = 78;
+const heightMark =  1.69;
+const massJohn = 92;
+const heightJohn = 1.95;
+
+const BMIMark= massMark / heightMark ** 2;
+const BMIJohn = massJohn / (heightJohn * heightJohn);
+const markHigherBMI = BMIMark > BMIJohn;
+
+console.log(BMIMark, BMIJohn,);
+
+if (BMIMark >= BMIJohn)
+{ 
+  console.log(`Mark's BMI is higher than John.s!`);
+} else {
+    console.log(`John's BMI is higher than Mark's!`);
+}
+
+//type  conversion
+const inputYear = '1991';
+console.log(Number(inputYear ));
+console.log(Number(inputYear) + 18);
+
+//type    coercion
+console.log( `I am ` + 23 + `years old` );
+console.log ('23'+`10`+ 3);
+
+//example
+let n = `1` + 1; //11
+n = n -1; // 11-1 
+console.log(n); //ans =10
+
+//truthy and falsy values
+// 5 falsy value are 0, '' ,undefined, null, 
+let height = 19;
+
+if (height) {
+    console.log (`YAY! Height id defined`);
+} else  {
+    console.log (`Height is UNDEFINED`)
+}*/
+
+
+//EQUALITY OPERATORS
+  
+/*const favourite = Number( prompt("what's your favourite number?"));
+if (favourite === 286{
+    console.log('cool! 26 is an amazing number!')
+} else if (favourite === 9 ){ 
+    console.log('9 is also a cool number')
+}
+    else  {console.log (`Number is not 26 or 9`);}
+
+
+    if(favourite === 26) console.log(`why not 23`);
+
+    //boolean logic, - AND,OR & NOT operators.*/
+
+    /*const hasDriversLicense = true // A
+    const hasGoodVision = false // B
+    console.log(hasDriversLicense && hasGoodVision);
+    console.log(hasDriversLicense || hasGoodVision);*/
+
+const scoreDolphins = (96 + 108 + 89) /3;
+const scoreKoalas = (88 + 91 + 110) /3;
+console.log (scoreDolphins, scoreKoalas);
+
+if (scoreDolphins > scoreKoalas) {
+    console.log(`dolphins win the trophy 🏆`);
+
+} else if (scoreKoalas > scoreDolphins) {console.log (`Koalas win the trophy🏆`);
+
+
+} else if (scoreDolphins === scoreKoalas){
+    console.log(`Both win the trophy🏆`);
+}
